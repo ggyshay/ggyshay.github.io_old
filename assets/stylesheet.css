@@ -1,0 +1,85 @@
+#header-profile-picture {
+  width: 100%;
+}
+
+#header-list {
+  list-style-type: none;
+}
+
+#header-list li {
+  margin-top: 2em;
+}
+
+strong {
+  color: #ff7809;
+}
+
+.header {
+  background-color: #4f4f4f;
+  color: white;
+  margin-bottom: 0px;
+}
+
+.projs-img {
+  width: 100%;
+}
+
+.simple-header {
+  background-color: #ff7809;
+  color: #4f4f4f;
+}
+
+.proj-holder {
+  margin: 2em;
+}
+
+.proj-holder h4 {
+  line-height: 1.8em;
+  color: white;
+}
+
+.Projects {
+  background-color: #707070;
+}
+
+.Education {
+  background-color: #707070;
+}
+
+code {
+  background-color: #707070;
+  color: #ff7809;
+}
+
+#softskill-icon {
+  width: 1.3em;
+  height: 1.5em;
+  display: inline;
+}
+
+.proj-link {
+  color: inherit;
+}
+
+.proj-link:hover {
+  color: #a44f08;
+}
+
+#reference {
+  position: fixed;
+  right: 2em;
+  z-index: 1;
+}
+
+#reference button {
+  width: 10em;
+  margin: 0.5em;
+  background-color: rgba(48, 48, 48, 0.03);
+  color: rgba(255, 255, 255, 0.3);
+}
+
+#reference button:hover {
+  background-color: rgba(48, 48, 48, 1);
+  color: rgba(255, 255, 255, 1);
+  transition: 0.5s;
+}
