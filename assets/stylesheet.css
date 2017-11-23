@@ -1,3 +1,27 @@
+/*
+Color Pallet 1
+
+1 Dark gray: #33333d
+2 Light Gray:#474747
+3 Blue: #0067ad
+
+
+
+Color Pallet 2
+
+1 Dark gray: #333333
+2 Light Gray:#4c4b55
+3 Green: #88b04b
+
+
+
+Color Pallet 3
+
+1 Dark gray: #33333d
+2 Light Gray:#474747
+3 Orange: #f19300
+*/
+
 #header-profile-picture {
   width: 100%;
 }
@@ -7,15 +31,17 @@
 }
 
 #header-list li {
-  margin-top: 2em;
+  margin-bottom: 2em;
 }
 
 strong {
-  color: #ff7809;
+  color: #88b04b;
+  /*color 3*/
 }
 
 .header {
-  background-color: #4f4f4f;
+  background-color: #333333;
+  /*color 1*/
   color: white;
   margin-bottom: 0px;
 }
@@ -25,8 +51,12 @@ strong {
 }
 
 .simple-header {
-  background-color: #ff7809;
-  color: #4f4f4f;
+  background-color: #88b04b;
+  /*color 3*/
+  color: #4c4b55;
+  padding-left: 5em;
+  margin-bottom: 2em;
+  /*color 2*/
 }
 
 .proj-holder {
@@ -39,16 +69,22 @@ strong {
 }
 
 .Projects {
-  background-color: #707070;
+  background-color: #4c4b55;
+  /*color 2*/
 }
 
 .Education {
-  background-color: #707070;
+  background-color: #4c4b55;
+  color: white;
+  padding-bottom: 3em;
+  /*color 2*/
 }
 
 code {
-  background-color: #707070;
-  color: #ff7809;
+  background-color: #4c4b55;
+  /*color 2*/
+  color: #88b04b;
+  /*color 3*/
 }
 
 #softskill-icon {
@@ -58,11 +94,12 @@ code {
 }
 
 .proj-link {
-  color: inherit;
+  color: #88b04b;
 }
 
 .proj-link:hover {
-  color: #a44f08;
+  color: #52692d;
+  /*color 3 but darker*/
 }
 
 #reference {
